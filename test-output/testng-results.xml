@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-06-03T00:49:17 BDT" name="Suite" finished-at="2023-06-03T00:51:08 BDT" duration-ms="111240">
+    <groups>
+    </groups>
+    <test started-at="2023-06-03T00:49:17 BDT" name="Test" finished-at="2023-06-03T00:51:08 BDT" duration-ms="111240">
+      <class name="testcases.DarazLoginPageTest">
+        <test-method is-config="true" signature="SetBroweser()[pri:0, instance:testcases.DarazLoginPageTest@60df60da]" started-at="2023-06-03T00:49:17 BDT" name="SetBroweser" finished-at="2023-06-03T00:49:46 BDT" duration-ms="29341" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetBroweser -->
+        <test-method signature="TestLoginWithIvalidPhoneNumber(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testcases.DarazLoginPageTest@60df60da]" started-at="2023-06-03T00:49:46 BDT" name="TestLoginWithIvalidPhoneNumber" data-provider="invalid" finished-at="2023-06-03T00:50:11 BDT" duration-ms="25085" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[0111111111]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[paswordddd]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Please enter a valid password]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestLoginWithIvalidPhoneNumber -->
+        <test-method is-config="true" signature="quitBrowser()[pri:0, instance:testcases.DarazLoginPageTest@60df60da]" started-at="2023-06-03T00:50:11 BDT" name="quitBrowser" finished-at="2023-06-03T00:50:13 BDT" duration-ms="1528" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitBrowser -->
+        <test-method is-config="true" signature="SetBroweser()[pri:0, instance:testcases.DarazLoginPageTest@60df60da]" started-at="2023-06-03T00:50:13 BDT" name="SetBroweser" finished-at="2023-06-03T00:50:15 BDT" duration-ms="2432" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetBroweser -->
+        <test-method signature="TestLoginWithIvalidPhoneNumber(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testcases.DarazLoginPageTest@60df60da]" started-at="2023-06-03T00:50:15 BDT" name="TestLoginWithIvalidPhoneNumber" data-provider="invalid" finished-at="2023-06-03T00:50:30 BDT" duration-ms="14767" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[66666666aa]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[asasasas]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Enter a valid eamil and password]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestLoginWithIvalidPhoneNumber -->
+        <test-method is-config="true" signature="quitBrowser()[pri:0, instance:testcases.DarazLoginPageTest@60df60da]" started-at="2023-06-03T00:50:30 BDT" name="quitBrowser" finished-at="2023-06-03T00:50:31 BDT" duration-ms="710" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitBrowser -->
+        <test-method is-config="true" signature="SetBroweser()[pri:0, instance:testcases.DarazLoginPageTest@60df60da]" started-at="2023-06-03T00:50:31 BDT" name="SetBroweser" finished-at="2023-06-03T00:50:32 BDT" duration-ms="1181" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetBroweser -->
+        <test-method signature="TestLoginWithIvalidPhoneNumber(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testcases.DarazLoginPageTest@60df60da]" started-at="2023-06-03T00:50:32 BDT" name="TestLoginWithIvalidPhoneNumber" data-provider="invalid" finished-at="2023-06-03T00:50:48 BDT" duration-ms="15699" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[aaxakxoax]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[dsdsddsdsd]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Incorrect email and password]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestLoginWithIvalidPhoneNumber -->
+        <test-method is-config="true" signature="quitBrowser()[pri:0, instance:testcases.DarazLoginPageTest@60df60da]" started-at="2023-06-03T00:50:48 BDT" name="quitBrowser" finished-at="2023-06-03T00:50:49 BDT" duration-ms="712" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitBrowser -->
+        <test-method is-config="true" signature="SetBroweser()[pri:0, instance:testcases.DarazLoginPageTest@60df60da]" started-at="2023-06-03T00:50:49 BDT" name="SetBroweser" finished-at="2023-06-03T00:50:50 BDT" duration-ms="1364" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetBroweser -->
+        <test-method signature="TestLoginWithIvalidPhoneNumber(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testcases.DarazLoginPageTest@60df60da]" started-at="2023-06-03T00:50:50 BDT" name="TestLoginWithIvalidPhoneNumber" data-provider="invalid" finished-at="2023-06-03T00:51:07 BDT" duration-ms="16730" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[scscscsxcsxsnsk]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[46494scscs81]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Wrong email and password]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestLoginWithIvalidPhoneNumber -->
+        <test-method is-config="true" signature="quitBrowser()[pri:0, instance:testcases.DarazLoginPageTest@60df60da]" started-at="2023-06-03T00:51:07 BDT" name="quitBrowser" finished-at="2023-06-03T00:51:08 BDT" duration-ms="746" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitBrowser -->
+      </class> <!-- testcases.DarazLoginPageTest -->
+      <class name="testcases.DarazHelpCenterPageTest">
+        <test-method is-config="true" signature="SetBroweser()[pri:0, instance:testcases.DarazHelpCenterPageTest@63fbfaeb]" started-at="2023-06-03T00:49:17 BDT" name="SetBroweser" finished-at="2023-06-03T00:49:44 BDT" duration-ms="27289" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetBroweser -->
+        <test-method signature="TestHelpCenterPageTitle()[pri:0, instance:testcases.DarazHelpCenterPageTest@63fbfaeb]" started-at="2023-06-03T00:49:44 BDT" name="TestHelpCenterPageTitle" description="Test Help Center Page Title" finished-at="2023-06-03T00:49:57 BDT" duration-ms="13166" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestHelpCenterPageTitle -->
+        <test-method is-config="true" signature="quitBrowser()[pri:0, instance:testcases.DarazHelpCenterPageTest@63fbfaeb]" started-at="2023-06-03T00:49:58 BDT" name="quitBrowser" finished-at="2023-06-03T00:50:00 BDT" duration-ms="2718" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitBrowser -->
+        <test-method is-config="true" signature="SetBroweser()[pri:0, instance:testcases.DarazHelpCenterPageTest@63fbfaeb]" started-at="2023-06-03T00:50:00 BDT" name="SetBroweser" finished-at="2023-06-03T00:50:02 BDT" duration-ms="1855" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetBroweser -->
+        <test-method signature="TestHelpCenterPageUrl()[pri:0, instance:testcases.DarazHelpCenterPageTest@63fbfaeb]" started-at="2023-06-03T00:50:02 BDT" name="TestHelpCenterPageUrl" finished-at="2023-06-03T00:50:16 BDT" duration-ms="13984" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestHelpCenterPageUrl -->
+        <test-method is-config="true" signature="quitBrowser()[pri:0, instance:testcases.DarazHelpCenterPageTest@63fbfaeb]" started-at="2023-06-03T00:50:16 BDT" name="quitBrowser" finished-at="2023-06-03T00:50:18 BDT" duration-ms="1619" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitBrowser -->
+      </class> <!-- testcases.DarazHelpCenterPageTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
